@@ -23,7 +23,7 @@ body{
 .title h1{
     font-family: 'Permanent Marker', serif;
     white-space: nowrap;
-    width: 1920px;
+    width: 1920px auto;
     height: auto;
     margin-top: 0;
     text-align: center;
