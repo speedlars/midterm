@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ls_style.css">
+    <script src="ls_script.js" defer></script>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <title>Light Stick</title>
+    <nav class="nav-box">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="line">
+            <div class="menu"></div>
+        </label>
+        <div class="menu-list">
+            <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../Information/information.html">Information</a></li>
+                <li><a href="../Albums/albums.html">Albums</a></li>
+                <li><a href="../Members/members.html">Members</a></li>
+                <li><a href="light_stick.html">Light Stick</a></li>
+            </ul>
+        </div>
+    </nav>
+</head>
+<body>
+    <div class="title">
+        <h1>Dreamcatcher</h1>
+    </div>
+    
+    <form class="ls">
+        <span>手燈計算機</span><br>
+        </select><input id="number" name="number" type="text" placeholder="輸入延長棍數量(數字)"><br>
+        <input id="head" type="radio" name="head" value="282">圓頭
+        <input id="head" type="radio" name="head" value="362">尖頭
+        <input type="reset" value="清除" /><br>
+        <input type="text" id="total" readonly>mm<br>
+        <input type="sumit" value="送出" id="sumit" readonly style="opacity: 0;" />
+    </form>
+    <p>示意圖，不會變大但不放很可惜</p>
+    <div class="photo" id="photo">
+        <img id="ver1" src="ver1.jpg">
+        <img id="ver2" src="ver2.jpg">
+    </div>
+</body>
+</html>
