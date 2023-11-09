@@ -135,10 +135,11 @@ a{
 }
 .photo img{
     height: 780px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 .photo img:hover{
     opacity: 1;
+    transition: 1s;
 }
 .photo{
     text-align: center;
