@@ -40,7 +40,7 @@ body{
 .counting{
     margin-top: 1%;
     margin-bottom: 1%;
-    width: 1920px;
+    width: 1920px auto;
     color: white;
     display: flex;
     flex-wrap: flex;
